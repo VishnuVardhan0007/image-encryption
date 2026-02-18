@@ -1,0 +1,33 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+.venv
+
+# Keys and encrypted files (security)
+*.bin
+*.key
+*.encrypted
+key.bin
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Test images (optional)
+test_images/
+*.jpg
+*.png
+*.jpeg
+!example.jpg
